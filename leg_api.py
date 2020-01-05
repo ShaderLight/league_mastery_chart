@@ -70,4 +70,4 @@ chart.title = 'Masteries for: ' + str(summ_name)
 chart.x_labels = x_champs
 chart.add('',y_points)
 
-chart.render_to_file('leg_mast.svg')
+chart.render_to_file('leg_mast_' + summ_name + '.svg')
